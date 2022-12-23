@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Container } from "semantic-ui-react";
-import { Activity } from "./models/activity";
+import { Activity } from "../models/activity";
 import NavBar from "./NavBar";
 import ActivityDashboard from "../../features/activities/dashboard/ActivityDashboard";
 import { v4 as uuid } from "uuid";
